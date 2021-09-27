@@ -1,43 +1,70 @@
 body {
   margin:0%;
+  background-color: red ;
+  background: no-repeat;
 }
 
 section {
   width:100%;
   margin:auto;
-  padding: 20px; 
-background-color: blue;
+  padding: 300px; 
+background-image: linear-gradient(pink,white,pink) 
+
+
 }
 
 
 
-#image1 {
-  background-image: url(../images/image1.png); 
+#headerimage {
+  background-image: url(../images/pinkimage2.jpg); 
   background-size:100%;
   max-width:100%;
-  height:300px;
+  height:600px;
   background-attachment: fixed;
+  padding-bottom: 150px; 
+ background-repeat: no-repeat;
 }
 
 
-#image2  {
-  background-image: url(../images/image2.png); 
+#section1image  {
+  background-image: url(../images/swordblade.png); 
   background-size:100%;
   max-width:100%;
-  height:300px;
+  height:200%;
   background-attachment: fixed;
+  padding-bottom: 500px;
 }
 
 
-#image3 
+#section2image
    {
-  background-image: url(../images/image3.png); 
+  background-image: url(../images/pose1.jpg); 
   background-size:100%;
   max-width:100%;
-  height:300px;
+  height:250%;
   background-attachment: fixed;
+  padding-bottom: 500px;
+  
 }
 
 header {
 
 }
+
+
+@media only screen and (max-width: 1200px) {
+
+#headerimage {
+  display:none;
+}
+#section1image{
+  display: none;
+}
+#section2image{
+  display: none;
+}
+}
+
+
+  
+
