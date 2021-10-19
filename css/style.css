@@ -30,7 +30,7 @@ background-image: linear-gradient(pink,white,pink)
   background-image: url(../images/swordblade.png); 
   background-size:100%;
   max-width:100%;
-  height:200%;
+  height:300px;
   background-attachment: fixed;
   padding-bottom: 500px;
 }
@@ -47,7 +47,13 @@ background-image: linear-gradient(pink,white,pink)
   
 }
 
-header {
+.Banner {
+color:rgba(250, 167, 134, 0.877);
+text-align:center;
+padding-top:250px;
+font-size:60px;
+font-family: 'Lobster', cursive;
+text-shadow: 1px 1px 1px black;
 
 }
 
@@ -63,6 +69,8 @@ header {
 #section2image{
   display: none;
 }
+
+
 }
 
 
