@@ -23,7 +23,7 @@ background-image: linear-gradient(pink,white,pink)
 	z-index: 999;
 	top: 0;
 	font-size: 18px;
-  background-color: rgb(116, 41, 41);
+  background-color: rgb(136, 48, 48);
 }
 .nav-bar li:last-child {
 	margin-right: 60px;
@@ -49,7 +49,7 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	text-transform: uppercase;
-	font-family: ;
+	font-family: 'Permanent Marker', cursive;
 	font-weight: 400;
 	padding: 10px 30px;
 	letter-spacing: 1px;
@@ -58,6 +58,8 @@ nav ul li {
 
  nav a:hover {
 	color: lightgray;
+
+  transition-duration: 500ms  
 }
 /* Mobile navigation */
 .mobile-icon {
@@ -65,7 +67,7 @@ nav ul li {
 	text-align: right;
 	box-sizing: border-box;
 	cursor: pointer;
-	color: green;
+	color: rgb(255, 255, 255);
 	display: none;
 	font-size: 20px;
 	font-family: bold;
@@ -107,7 +109,7 @@ nav ul li {
 
 		.nav-bar {
 			width:100%;
-			background-color: rgb(116, 41, 41);
+			background-color: rgb(136, 48, 48);
 		}
 
 		nav ul li {
@@ -120,6 +122,7 @@ nav ul li {
 			background-color: rgb(94, 0, 0);
 			width: 100%;
         color:whitesmoke ;
+        transition-duration: 0.8s;
 		}
 
 		.nav-bar {
@@ -193,3 +196,18 @@ nav{
 
   
 
+/* section css */ 
+
+section {
+  margin:auto; 
+height: 20%; 
+
+}
+
+p {
+   font-family: 'Poppins', sans-serif;
+   font-size: 18px;  
+   max-width: 70%;
+   text-align: left;
+
+}
